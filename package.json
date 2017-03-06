@@ -2,10 +2,16 @@
   "name": "esthree",
   "version": "1.0.0",
   "description": "A Promise-based S3 abstration layer around the official AWS SDK",
-  "main": "lib/bucket.js",
+  "main": "dist/bucket.js",
+  "jsnext:main": "lib/bucket.js",
   "repository": "kasperisager/esthree",
   "author": "Kasper Isager <kasperisager@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "xo",
+    "transpile": "babel lib -d dist",
+    "prepublish": "npm run transpile"
+  },
   "devDependencies": {
     "babel-cli": "^6.23.0",
     "babel-preset-es2015": "^6.22.0",
