@@ -1,6 +1,6 @@
 {
   "name": "esthree",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A Promise-based S3 abstration layer around the official AWS SDK",
   "main": "dist/bucket.js",
   "jsnext:main": "lib/bucket.js",
