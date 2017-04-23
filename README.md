@@ -1,6 +1,6 @@
 # Esthree
 
-> A Promise-based S3 abstration layer around the official AWS SDK
+> A Promise-based S3 abstraction layer around the official AWS SDK
 
 ## Installation
 
